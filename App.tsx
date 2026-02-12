@@ -107,10 +107,13 @@ const App: React.FC = () => {
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black leading-[0.85] tracking-tighter uppercase mb-8">
               Front-end<br /><span className="outline-text">Developer</span>
             </h1>
-            <p className="text-lg text-gray-500 max-w-md mb-10 leading-relaxed">
-              Enthusiastic and focused fresher aiming to begin a career in the IT field. Strong foundation in programming with a keen interest in solving real-world problems. Always open to learning new skills and contributing effectively to team goals.
+            <p className="text-lg text-gray-500 max-w-xl mb-10 leading-relaxed text-justify indent-8">
+  Enthusiastic and focused fresher aiming to begin a career in the IT field.
+  Strong foundation in programming with a keen interest in solving real-world
+  problems. Always open to learning new skills and contributing effectively to
+  team goals.
+</p>
 
-            </p>
             <div className="flex space-x-4">
               <a href="#projects" className="btn-primary border-2 border-black px-8 py-4 text-xs font-black uppercase tracking-widest z-10">View Projects</a>
               <a href="DHARUN S S.pdf" download className="px-8 py-4 text-xs font-black uppercase tracking-widest bg-gray-50 hover:bg-gray-100 transition-colors">Download CV</a>
